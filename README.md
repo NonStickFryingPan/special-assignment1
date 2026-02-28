@@ -39,6 +39,8 @@ README.md – Project documentation
 - Use filters to narrow by variant type and clinical significance.  
 - Verify phenotype and inheritance information in OMIM.  
 - Record relevant details in `assignment.xlsx`.
+<img width="1260" height="555" alt="{78B94717-7D83-42A4-86BA-DFAC8684DE25}" src="https://github.com/user-attachments/assets/d974e942-2a7b-49cb-bec6-dae34bb69b44" />
+
 
 ---
 
@@ -53,10 +55,6 @@ Use VCF version 4.2 format:
 <chr> <position> . <REF> <ALT> . PASS .
 ```
 
-Ensure:
-- The genome build is GRCh38.  
-- The REF allele matches the reference genome.  
-
 ---
 
 ### 3. Functional Annotation (VEP)
@@ -66,7 +64,9 @@ Upload the VCF to Ensembl Variant Effect Predictor:
 - Select GRCh38.  
 - Enable SIFT.  
 - Enable PolyPhen.  
-- Include gnomAD allele frequencies.  
+- Include gnomAD allele frequencies.
+<img width="1278" height="632" alt="{281B3BE1-3915-483A-B5FE-162E9B7F0404}" src="https://github.com/user-attachments/assets/a92d6a59-942c-41d7-96bc-811ed8ecffa9" />
+
 
 ---
 
@@ -79,6 +79,8 @@ Using UCSC Genome Browser:
 - Document scores in `assignment.xlsx`.  
 
 Note: Repeat expansions and structural variants are not evaluated by these tools.
+<img width="2560" height="1159" alt="image" src="https://github.com/user-attachments/assets/9a46f04d-60d1-42cb-ac2e-a16827580e9b" />
+
 
 ---
 
