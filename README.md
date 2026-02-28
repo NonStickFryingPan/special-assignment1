@@ -20,14 +20,14 @@ README.md – Project documentation
 
 ## Workflow Overview
 
-1. Variant selection using ClinVar  
-2. Phenotype verification using OMIM  
-3. Coordinate standardization to GRCh38  
-4. VCF construction  
-5. Functional annotation using Ensembl VEP  
-6. Pathogenicity scoring (AlphaMissense and RAVEL, where applicable)  
-7. ACMG/AMP 2015 evidence-based classification  
-8. Generation of final annotated VCF  
+1.  **Variant Selection:** Identification of pathogenic variants using [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/).
+2.  **Phenotype Verification:** Confirmation of clinical symptoms and inheritance patterns via [OMIM](https://www.omim.org/).
+3.  **Coordinate Standardization:** Ensuring all positions are mapped to the **GRCh38** assembly.
+4.  **VCF Construction:** Generating a machine-readable variant file.
+5.  **Functional Annotation:** Predicting biological impact using [Ensembl VEP](https://www.ensembl.org/Homo_sapiens/Tools/VEP).
+6.  **Pathogenicity Scoring:** Extracting AlphaMissense and REVEL scores for computational evidence.
+7.  **Evidence Synthesis:** Applying [ACMG/AMP 2015 Guidelines](https://www.acmg.net/ACMG/Medical-Genetics-Practice-Resources/Practice-Guidelines.aspx).
+8.  **Output:** Generation of the final annotated VCF and clinical verdict.
 
 ---
 
