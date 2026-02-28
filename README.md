@@ -8,14 +8,11 @@ This repository documents a reproducible workflow for identifying, annotating, a
 
 ## Repository Structure
 
-assignment.xlsx – Structured evidence table containing variant details, phenotype data, computational predictions, and ACMG classification  
+- [`assignment.xlsx`](https://docs.google.com/spreadsheets/d/1bKZsR481E2k683q5QbTzLJn8DGj020nKFDmSF3KP6_Q/edit?usp=sharing) – Structured evidence table containing variant details, phenotype data, computational predictions, and ACMG classification  
 
-unannotated.vcf – Simulated raw variant file formatted in VCF v4.2 (GRCh38)  
+- `unannotated.vcf` – Simulated raw variant file formatted in VCF v4.2 (GRCh38)  
 
-annotated.vcf – ClinVar-annotated output file  
-
-README.md – Project documentation  
-
+- `annotated.vcf` – ClinVar-annotated output file  
 ---
 
 ## Workflow Overview
