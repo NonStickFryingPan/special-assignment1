@@ -68,12 +68,6 @@ Upload the VCF to Ensembl Variant Effect Predictor:
 - Enable PolyPhen.  
 - Include gnomAD allele frequencies.  
 
-Record:
-- Variant consequence  
-- Amino acid change  
-- Population frequency  
-- In-silico predictions  
-
 ---
 
 ### 4. Retrieve Pathogenicity Scores
