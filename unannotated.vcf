@@ -1,0 +1,18 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##contig=<ID=chr4,length=190214555>
+##contig=<ID=chr5,length=181538259>
+##contig=<ID=chr7,length=159345973>
+##contig=<ID=chr11,length=135086622>
+##contig=<ID=chr12,length=133275309>
+##contig=<ID=chrX,length=156040895>
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene Name">
+##INFO=<ID=DIS,Number=1,Type=String,Description="Associated Disorder">
+##INFO=<ID=ACMG,Number=.,Type=String,Description="ACMG Classification Codes">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr4	3076606	.	GCA	GCA[40]	100	PASS	GENE=HTT;DIS=Huntingtons;ACMG=PS1_PM1_PP4
+chr5	151253459	.	T	C	100	PASS	GENE=GM2A;DIS=Tay_Sachs;ACMG=PM2_PP3_PS1
+chr7	117480095	.	A	G	100	PASS	GENE=CFTR;DIS=Cystic_Fibrosis;ACMG=PVS1_PM2_PP3
+chr11	5227002	.	G	A	100	PASS	GENE=HBB;DIS=Sickle_Cell;ACMG=PS1_PM2_PP3
+chr12	102838321	.	TA	T	100	PASS	GENE=NSUN2;DIS=Phenylketonuria;ACMG=PVS1_PM2
+chrX	31245000	.	G	A	100	PASS	GENE=DMD;DIS=Duchenne_Muscular_Dystrophy;ACMG=PVS1_PM2_PP3
