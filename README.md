@@ -3,6 +3,8 @@
 This repository documents a reproducible workflow for identifying, annotating, and classifying clinically relevant genetic variants using public databases and standardized interpretation guidelines. The project simulates a clinical genomics pipeline, starting from variant selection and ending with ACMG/AMP-based pathogenicity classification.
 
 <img width="3980" height="944" alt="image" src="https://github.com/user-attachments/assets/28d79046-2977-4040-8f6b-6601ecae49d1" />
+<img width="1600" height="380" alt="image" src="https://github.com/user-attachments/assets/9ec9aca5-27ba-4ca9-ab76-1eeba8677424" />
+
 
 
 ---
